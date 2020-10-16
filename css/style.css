@@ -9,6 +9,15 @@
   width: 80%;
   margin: auto;
 }
+.bg_orange{
+  background-color: #FE775A;
+}
+.bg_lightblue{
+  background-color: #F4F9FD;
+}
+.bg_aquamarine{
+  background-color: #AFEBE4;
+}
 
 .fl{
   float: left;
@@ -16,3 +25,137 @@
 .fr{
   float: right;
 }
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* /utility class */
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+/* header */
+/* upper_navbar */
+.upper_navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 1000px;
+  color: #33475B;
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #33475B;
+}
+.upper_navbar_left a{
+  text-decoration: none;
+  color: #33475B;
+}
+.country_menu{
+  padding-right: 20px;
+  border-right: 2px solid #8B9599;
+}
+.contact_menu{
+  padding-left: 20px;
+}
+.upper_navbar_right a{
+  margin-left: 20px;
+}
+.search_icon{
+  color: #11ABC2;
+}
+.login_btn{
+  color: #FE775A;
+  padding: 10px;
+  border: 1px solid #FE775A;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.get_free_btn{
+  color: white;
+  background-color: #FE775A;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+.login_btn:hover{
+  background-color: #f1efef;
+}
+.get_free_btn:hover{
+  background-color: #fe775ab5;
+}
+/* /upper_navbar */
+
+/* navbar */
+.navbar{
+  margin-top: 80px;
+  height: 80px;
+  min-width: 1000px;
+}
+
+.logo{
+  height: 80px;
+  line-height: 80px;
+}
+.header_logo{
+  vertical-align: middle;
+
+}
+.navbar_right{
+  line-height: 80px;
+}
+.navbar_right a{
+  text-decoration: none;
+  color: #33475B;
+  margin-left: 20px;
+}
+
+.navbar_right > a > i{
+  margin-left: 12px;
+}
+/* /navbar */
+
+/* hero_image */
+.hero_image{
+  min-width: 1000px;
+  width: 100%;
+  height: 560px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: 125%;
+  background-position: right top;
+}
+
+.hero_text{
+  width: 50%;
+  color: #33475B;
+  margin-top: 45px;
+}
+.hero_text h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+.hero_text > h1, p,a{
+  margin-bottom: 20px;
+}
+.hero_text > p, a{
+  font-size: 14px;
+  line-height: 2em;
+}
+.big_btn{
+  display: inline-block;
+}
+p:last-child{
+  font-size: 12px;
+}
+/* /hero_image */
+
+/* header_spacer */
+.header_spacer{
+  height: 80px;
+  border-top: 2px solid #33475B;
+  border-top: 2px solid #33475B;
+}
+/* /header_spacer */
+/* /header */
