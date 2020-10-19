@@ -30,23 +30,30 @@
   display: table;
   clear: both;
 }
+.fw_600{
+  font-weight: 600;
+}
 /* /utility class */
 
 body{
   font-family: 'Montserrat', sans-serif;
+  min-width: 1200px;
 }
 /* header */
 /* upper_navbar */
 .upper_navbar{
+  min-width: 1200px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  min-width: 1000px;
   color: #33475B;
   height: 80px;
   line-height: 80px;
   border-bottom: 1px solid #33475B;
+}
+.upper_navbar_left{
+  width: 50%;
 }
 .upper_navbar_left a{
   text-decoration: none;
@@ -57,7 +64,14 @@ body{
   border-right: 2px solid #8B9599;
 }
 .contact_menu{
+  display: inline-block;
+}
+.contact_us{
   padding-left: 20px;
+}
+.upper_navbar_right{
+  width: 50%;
+  text-align: right;
 }
 .upper_navbar_right a{
   margin-left: 20px;
@@ -118,12 +132,11 @@ body{
 
 /* hero_image */
 .hero_image{
-  min-width: 1000px;
+  min-width: 1200px;
   width: 100%;
-  height: 560px;
+  height: 610px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: 125%;
   background-position: right top;
 }
 
@@ -134,9 +147,8 @@ body{
 }
 .hero_text h1{
   font-size: 50px;
-  font-weight: 600;
 }
-.hero_text > h1, p,a{
+.hero_text > h1, .hero_text > p, .hero_text > a{
   margin-bottom: 20px;
 }
 .hero_text > p, a{
@@ -153,9 +165,148 @@ p:last-child{
 
 /* header_spacer */
 .header_spacer{
+  min-width: 1200px;
   height: 80px;
   border-top: 2px solid #33475B;
-  border-top: 2px solid #33475B;
+  border-bottom: 2px solid #33475B;
 }
 /* /header_spacer */
 /* /header */
+
+/* main */
+/* services */
+.services{
+  min-width: 1200px;
+}
+/* services_header */
+.services_header_content{
+  text-align: center;
+  width: 72%;
+  margin: auto;
+  padding: 40px 180px;
+  color: #33475B;
+  line-height: 1.5em;
+}
+.services_header_content h2{
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+/* /services_header */
+
+/* services_first_row */
+.services_product_first_row{
+  background-color: white;
+  padding: 60px;
+  margin-bottom: 50px;
+  box-shadow: 1px 1px 5px #dedede, -1px -1px 5px #dedede, 1px -1px 5px #dedede, -1px  1px 5px #dedede;
+  border-radius: 5px;
+}
+.services_product_first_row_content_left{
+  width: 35%;
+  text-align: center;
+}
+#book_image{
+  display: block;
+  margin: auto;
+  width: 70%
+}
+.learn_more{
+  margin: auto;
+  width: 70%;
+}
+.btn_orange{
+  color: white;
+  background-color: #FE775A;
+  font-size: 14px;
+  padding: 10px 25px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+.services_product_first_row_content_right{
+  width: 65%;
+  padding-left: 20px;
+  color: #33475B;
+}
+h3{
+  font-size: 23px;
+  line-height: 2em;
+}
+.services_product_first_row_content_right p{
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 2em;
+}
+.popular{
+  margin-top: 25px;
+}
+#h4_main_first_row{
+  display: inline-block;
+  padding-right: 10px;
+}
+.services_first_row hr{
+  border: 1px solid #899396;
+  display: inline-block;
+  width: 58%;
+  vertical-align: middle;
+}
+.services_product_first_row_content_right li{
+  display: inline-block;
+  padding-right: 20px;
+}
+.list{
+  margin-top: 25px;
+}
+.main_list{
+  list-style: none;
+}
+.main_list .fas{
+  color: #FE775A;
+  padding-right: 14px;
+}
+/* /services_first_row */
+
+/* services_second_row */
+.services_product_second_row{
+  margin-bottom: 50px;
+}
+.services_card{
+  width: 28%;
+  height: 600px;
+  background-color: white;
+  padding: 30px;
+  box-shadow: 1px 1px 5px #dedede, -1px -1px 5px #dedede, 1px -1px 5px #dedede, -1px  1px 5px #dedede;
+  border-radius: 5px;
+  text-align: center;
+  color: #33475B;
+}
+.mg_27{
+  margin-top: 27px;
+}
+#mid_card{
+  margin: 0 83.5px;
+}
+#card_p_padding{
+  padding: 0 6px;
+}
+.img_second_row{
+  height: 90px;
+}
+.services_second_row hr{
+  border: 1px solid #899396;
+  vertical-align: middle;
+}
+.services_card li{
+  text-align: left;
+}
+#btn_second_row{
+  margin-top: 0;
+}
+.btn_orange:hover{
+  background-color: #fe775ab5;
+}
+
+/* /services_second_row */
+/* /services */
+/* /main */
