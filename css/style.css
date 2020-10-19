@@ -42,6 +42,7 @@ body{
 /* header */
 /* upper_navbar */
 .upper_navbar{
+  z-index: 2;
   min-width: 1200px;
   position: fixed;
   top: 0;
@@ -328,7 +329,6 @@ h3{
 }
 .community_first_row, .community_second_row{
   width: 100%;
-  padding: 0 50px 0 50px;
 }
 .community_info{
   width: 25%;
@@ -337,13 +337,16 @@ h3{
 }
 .community_info img{
   height: 30px;
+  margin-bottom: 15px;
 }
 .community_info h2{
 font-size: 40px;
 font-weight: 600;
+margin-bottom: 15px;
 }
 .community_info p{
 font-size: 13px;
+margin-bottom: 15px;
 }
 .border_left{
   border-left: 1px solid white;
@@ -354,5 +357,57 @@ font-size: 13px;
 /* /community */
 
 /* customers */
+.customers_header{
+  width: 100%;
+}
+.data{
+  width: 35%;
+  padding: 50px;
+}
+.partner{
+  width: 65%;
+  padding: 70px 50px 50px 100px;
+}
+.customers_text{
+  width: 45%;
+  padding: 30px 50px 50px 0;
+}
+.customers_image{
+  width: 55%;
+  text-align: right;
+}
+#number{
+  font-size: 50px;
+}
+.data p{
+  width: 170px;
+  line-height: 1.8em;
+}
+.customers h2{
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-weight: 600;
+}
+.partner img{
+  width: 100px;
+  margin-left: 30px;
+  line-height: 35px;
+  vertical-align: middle;
+}
+.partner_image_upperrow{
+  margin-bottom: 30px;
+}
+
+.btn_customers{
+  margin-bottom: 20px;
+}
+.customers_text p{
+  margin-bottom: 20px;
+}
+.customers_image img{
+  z-index: 1;
+  width: 250px;
+}
+
 /* /customers */
 /* /main */
