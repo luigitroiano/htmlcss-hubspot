@@ -268,8 +268,8 @@ h3{
 /* /services_first_row */
 
 /* services_second_row */
-.services_product_second_row{
-  margin-bottom: 50px;
+.services_second_row{
+  padding-bottom: 50px;
 }
 .services_card{
   width: 28%;
@@ -306,7 +306,53 @@ h3{
 .btn_orange:hover{
   background-color: #fe775ab5;
 }
-
 /* /services_second_row */
 /* /services */
+
+/* community */
+.community{
+  color: white;
+  background: linear-gradient(45deg, #00a4bd, #00bda5);
+  padding-bottom: 80px;
+}
+.community_header{
+  padding: 50px 50px 50px 50px;
+  text-align: center;
+}
+.community_header h2{
+  font-size: 32px;
+  font-weight: 600;
+}
+.community_header p{
+  font-size: 16px;
+}
+.community_first_row, .community_second_row{
+  width: 100%;
+  padding: 0 50px 0 50px;
+}
+.community_info{
+  width: 25%;
+  text-align: center;
+  padding: 20px;
+}
+.community_info img{
+  height: 30px;
+}
+.community_info h2{
+font-size: 40px;
+font-weight: 600;
+}
+.community_info p{
+font-size: 13px;
+}
+.border_left{
+  border-left: 1px solid white;
+}
+.community_first_row .community_info{
+  border-bottom: 1px solid white;
+}
+/* /community */
+
+/* customers */
+/* /customers */
 /* /main */
